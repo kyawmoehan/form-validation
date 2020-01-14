@@ -68,7 +68,7 @@ img{
     color: var(--secondary-color);
 }
 /* end form area */
-@media (max-width:368px){
+@media (max-width:450px){
     .form-area .text{
         margin: 1rem 0;
     }
@@ -77,5 +77,8 @@ img{
     }
     .form-area .form-register .form-group{
         margin: 0.8rem 0;
+    }
+    .hide{
+        display: none;
     }
 }
